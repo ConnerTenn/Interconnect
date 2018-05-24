@@ -38,3 +38,6 @@ Links:
 	Loose, Normal, Tight
 	Uniform, Directional
 	
+Groups:
+	allows to link a group of nodes to another group of nodes
+

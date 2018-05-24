@@ -1,0 +1,7 @@
+
+struct Node
+{
+	
+};
+
+struct Link

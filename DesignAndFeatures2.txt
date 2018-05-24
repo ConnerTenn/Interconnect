@@ -1,0 +1,40 @@
+noun
+adjective
+verb
+adverb
+preposition
+	how the relationship between the noun and other words in the sentence
+	"after, in, to, on, and with"
+Conjunction
+	connect phrases, clauses, and sentences
+	"and, because, but, for, if, or, and when"
+	coordinating conjunctions and subordinating conjunctions
+Exclamation
+	express strong emotion
+
+time
+	falls uner preposition
+
+
+
+I ran to the building
+
+Me[noun] --> run[verb] ---> building[noun]
+                |                |
+			past[time]   destination[adjective?]
+
+
+
+I am 18 years old
+
+Me[noun] --- age[attribute] === 18
+
+
+Nodes:
+	name
+	attribute
+
+Links:
+	Loose, Normal, Tight
+	Uniform, Directional
+	

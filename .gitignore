@@ -5,6 +5,7 @@
 *.db
 
 # Compiled Object files
+[Bb]uild/
 *.o
 *.obj
 

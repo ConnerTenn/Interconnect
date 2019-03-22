@@ -16,12 +16,16 @@ typedef signed int i32;
 typedef signed long i64;
 
 u64 Rand();
+std::string IdStr(u64 id);
 
 struct Element
 {
 	u64 ID;
 	std::string Content;
 	enum { Link=1,Node } Type;
+
+	Element();
+	Element(std::string content);
 	virtual ~Element();
 	
 	//Element();
@@ -31,8 +35,10 @@ struct Element
 struct Link : public Element
 {
 	u64 Head, Tail;
+	bool Directional;
 	
 	Link();
+	Link(std::string content, u64 head=0, u64 tail=0, bool directional=true);
 	
 	std::string String();
 };
@@ -42,6 +48,7 @@ struct Node : public Element
 	std::vector<u64> SubElementList;
 	
 	Node();
+	Node(std::string content, std::vector<u64> subElements={});
 	
 	std::string String();
 };
